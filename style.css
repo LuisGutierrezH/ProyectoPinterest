@@ -21,7 +21,7 @@
     width: 100%;
 }
 
-.buscar input {
+.finder {
     width: 85%;
     height: 30px;
     border-radius: 30px;
@@ -128,7 +128,7 @@
 }
 
 @media screen and (max-width: 1300px) {
-    .buscar input {
+    .finder {
         width: 80%;
     }
 
@@ -138,7 +138,7 @@
 }
 
 @media screen and (max-width: 992px) {
-    .buscar input {
+    .finder {
         width: 75%;
     }
 
@@ -148,7 +148,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .buscar input {
+    .finder {
         width: 70%;
     }
 
@@ -159,7 +159,7 @@
 }
 
 @media screen and (max-width: 576px) {
-    .buscar input {
+    .finder {
         width: 60%;
     }
 
@@ -170,7 +170,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    .buscar input {
+    .finder {
         width: 50%;
     }
 
@@ -180,7 +180,7 @@
 }
 
 @media screen and (max-width: 300px) {
-    .buscar input {
+    .finder {
         width: 35%;
     }
 
