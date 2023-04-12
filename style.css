@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+.Header {
+    color: red;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.buscar {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    width: 100%;
+}
+
+.buscar input {
+    width: 85%;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgba(240, 255, 255, 0.822);
+    border-color: aliceblue;
+}
+
+.Pinterest-logo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+}
+
+
+
+.links img {
+    left: 150px;
+    display: inline-block;
+    height: 25px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 12px;
+}
+
+.links {
+    position: absolute;
+    right: 10px;
+    margin-right: 5px;
+}
+
+.card-image {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.card-info {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.304);
+    opacity: 0;
+ 
+}
+
+.card-info button {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    right: 5%;
+    top: 5%;
+    color: white;
+    background-color: red;
+    font-size: 80%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border-color: red;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(6, 230px);
+    background-color: #fff;
+    column-gap: 25px;
+    row-gap: 25px;
+    margin: 100px;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 25px;
+    
+
+}
+
+.card-image img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+.card-info:hover {
+    opacity: 1;
+    cursor: pointer;
+
+
+}
+
+@media screen and (max-width: 1630px) {
+
+    .content {
+        grid-template-columns: repeat(5, 220px);
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .buscar input {
+        width: 80%;
+    }
+
+    .content {
+        grid-template-columns: repeat(4, 220px);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .buscar input {
+        width: 75%;
+    }
+
+    .content {
+        grid-template-columns: repeat(3, 220px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .buscar input {
+        width: 70%;
+    }
+
+    .content {
+        grid-template-columns: repeat(2, 220px);
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .buscar input {
+        width: 60%;
+    }
+
+    .content {
+        justify-content: start;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .buscar input {
+        width: 50%;
+    }
+
+    .links {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .buscar input {
+        width: 35%;
+    }
+
+    .links {
+        visibility: hidden;
+    }
+}
+
+.img-fluid {
+    width: 100%;
+}
